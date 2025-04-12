@@ -1,0 +1,8 @@
+*.class
+*.log
+*.tmp
+*.swp
+.DS_Store
+build/
+out/
+.gradle
