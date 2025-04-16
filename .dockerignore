@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+
+.git
+.gitignore
+
+out/
+*.class
+
+*.log
+*.swp
+*.swo
+*~
+
+.env

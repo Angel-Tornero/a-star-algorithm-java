@@ -24,8 +24,37 @@ The project is intended to be used as a learning tool for understanding pathfind
 ## 🛠️ Built With
 
 * [Java](https://www.oracle.com/java/)
-<!--* [JUnit](https://junit.org/junit5/) (for unit testing)-->
 
+---
+
+## 🚀 How to Run
+
+### Using `javac`:
+
+1. Clone the repository.
+```bash
+git clone https://github.com/Angel-Tornero/a-star-algorithm-java.git
+cd a-star-algorithm-java/src/a_star_algorithm
+```
+2. Compile the Java files.
+```bash
+javac src/a_star_algorithm/*.java
+```
+4. Run the program.
+```bash
+java a_star_algorithm.Main
+```
+
+### Using Docker:
+
+1. Build the Docker image.
+```bash
+docker build -t a-star-algorithm-java .
+```
+2. Run the Docker container.
+```bash
+docker run --rm a-star-algorithm-java
+```
 ---
 
 ## 📫 Contact
